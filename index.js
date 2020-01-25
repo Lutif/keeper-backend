@@ -6,7 +6,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 
 app.get('/api/name', (req, res) => {
-    console.log('Call made to server')
+
     res.end(JSON.stringify({data:"Keepr app is working for you !!"}))
 })
 
